@@ -16,7 +16,7 @@ namespace SalarioMinimoColombia.Controllers
             return SalarioMinimoService.Salarios.ToList();
         }
 
-        [HttpGet("anio")]
+        [HttpGet("{anio}")]
         public ActionResult<List<SalarioMinimo>> Get(int anio)
         {
 
