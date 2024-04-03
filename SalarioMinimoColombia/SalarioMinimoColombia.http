@@ -1,0 +1,6 @@
+@SalarioMinimoColombia_HostAddress = http://localhost:5261
+
+GET {{SalarioMinimoColombia_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
